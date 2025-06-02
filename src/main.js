@@ -32,7 +32,7 @@ const api = async () => {
 }
 
 const dodawanie = async () => {
-  let title = document.getElementById("author").value
+  let title = document.getElementById("title").value
   let subtitle = document.getElementById("subtitle").value
   let author = document.getElementById("author").value
   let content = document.getElementById("content").value
